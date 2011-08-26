@@ -1,0 +1,11 @@
+# use `` instead of default CTRL-A
+escape ``
+
+# Function key 7 and 8 to switch between screen tabs.
+bindkey -k k7 prev
+bindkey -k k8 next
+
+# statusline
+hardstatus alwayslastline
+hardstatus string "%{.bW}%-w%{.rW}%n %t%{-}%+w %=%{..G} %H %{..Y} %d/%m %C%a "
+
